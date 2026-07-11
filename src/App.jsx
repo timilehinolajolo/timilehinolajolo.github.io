@@ -36,9 +36,9 @@ const MyPortfolio = () => {
 
   // Social Links Data
   const socialLinks = [
-    { name: 'Github', url: 'https://github.com/timilehinolajolo' },
-    { name: 'LinkedIn', url: 'https://linkedin.com/in/timilehinolajolo' },
-    { name: 'X', url: 'https://x.com/_timilehintaiwo' },
+    { name: 'Github /', url: 'https://github.com/timilehinolajolo' },
+    { name: 'LinkedIn /', url: 'https://linkedin.com/in/timilehinolajolo' },
+    { name: 'X  /', url: 'https://x.com/_timilehintaiwo' },
     { name: 'Medium', url: 'https://medium.com/@timilehinolajolo' }
   ];
 
@@ -92,17 +92,17 @@ const MyPortfolio = () => {
         </div>
       </nav>
 
-      <main className="flex-grow max-w-4xl mx-auto px-6 py-20 relative z-10 w-full">
-        <motion.div variants={staggerContainer} initial="hidden" animate="visible" className="space-y-32">
+      <main className="flex-grow max-w-4xl mx-auto px-6 py-5 relative z-10 w-full">
+        <motion.div variants={staggerContainer} initial="hidden" animate="visible" className="space-y-8">
           
           {/* CENTRALIZED HERO / INTRO SECTION */}
-          <motion.section variants={meltIn} className="flex flex-col items-center text-center space-y-8">
+          <motion.section variants={meltIn} className="flex flex-col items-center text-center space-y-1">
             <motion.h1 
               className="text-5xl md:text-7xl font-serif tracking-tight text-[#111]"
               whileHover={{ scale: 0.98 }}
               transition={{ duration: 0.4, ease: "easeOut" }}
             >
-              Taiwo Timilehin Olajolo
+
             </motion.h1>
 
             <motion.div 
