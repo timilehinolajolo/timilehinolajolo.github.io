@@ -10,6 +10,12 @@ export default {
         sans: ['Inter', 'sans-serif'],
         serif: ['Playfair Display', 'serif'],
       },
+      colors: {
+        brand: {
+          primary: '#4c1d95', // Deep violet/purple
+          accent: '#7c3aed',  // Lighter violet for hovers
+        }
+      }
     },
   },
   plugins: [],
