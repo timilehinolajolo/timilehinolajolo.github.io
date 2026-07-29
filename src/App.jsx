@@ -133,7 +133,6 @@ const MyPortfolio = () => {
         <div className="flex gap-6 text-sm font-mono uppercase tracking-widest text-slate-500">
           <a href="#about" className="hover:text-teal-700 transition-colors">About</a>
           <a href="#experience" className="hover:text-teal-700 transition-colors">Experience</a>
-          <a href="#projects" className="hover:text-teal-700 transition-colors">Projects</a>
           <a href="#blog" className="hover:text-teal-700 transition-colors">Blog</a>
         </div>
       </nav>
@@ -210,7 +209,8 @@ const MyPortfolio = () => {
                 whileTap={{ scale: 0.98 }}
                 className="px-8 py-3 border border-slate-800 text-slate-800 font-mono text-sm uppercase tracking-widest transition-colors duration-300 rounded-sm"
               >
-                View Resume / CV
+                <a href="https://timilehinolajolo.netlify.app"                   target="_blank" 
+                  rel="noopener noreferrer"  >SEE MY PROJECTS HERE</a>
               </motion.button>
             </div>
           </motion.section>
@@ -270,7 +270,7 @@ const MyPortfolio = () => {
             </div>
           </motion.section>
 
-          {/* PROJECTS SECTION */}
+          {/* PROJECTS SECTION
           <motion.section id="projects" variants={meltIn} className="space-y-8 pt-16">
             <h2 className="text-sm font-mono uppercase tracking-widest text-teal-700/80 border-b border-slate-200 pb-4">/ Projects /</h2>
             <div className="relative w-full aspect-video bg-slate-100 rounded-sm flex items-center justify-center overflow-hidden group border border-slate-200">
@@ -287,7 +287,7 @@ const MyPortfolio = () => {
                 Coming Soon.
               </motion.p>
             </div>
-          </motion.section>
+          </motion.section> */}
 
           {/* BLOG SECTION */}
           <motion.section id="blog" variants={meltIn} className="space-y-12 pt-16">
