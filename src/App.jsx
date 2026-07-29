@@ -193,7 +193,7 @@ const MyPortfolio = () => {
               <p>
                 I am also a software developer focused on building clean web apps.{" "}
                 <a 
-                  href="https://timilehinolajolo.netlify.app" 
+                  href="https://timilehinolajolo.onrender.com" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="text-teal-700 border-b border-teal-700/30 hover:border-teal-700 transition-colors italic font-medium"
@@ -209,8 +209,7 @@ const MyPortfolio = () => {
                 whileTap={{ scale: 0.98 }}
                 className="px-8 py-3 border border-slate-800 text-slate-800 font-mono text-sm uppercase tracking-widest transition-colors duration-300 rounded-sm"
               >
-                <a href="https://timilehinolajolo.netlify.app"                   target="_blank" 
-                  rel="noopener noreferrer"  >SEE MY PROJECTS HERE</a>
+                <a href="https://timilehinolajolo.onrender.com" target="_blank" rel="noopener noreferrer"  >SEE MY PROJECTS HERE</a>
               </motion.button>
             </div>
           </motion.section>
