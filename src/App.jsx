@@ -83,6 +83,14 @@ const MyPortfolio = () => {
   // Blog Posts Data
   const blogPosts = [
     { 
+      title: "Building Connected Systems: Embedded Systems, IoT & AI", 
+      tag: "Panel Moderator - ASAP-E Node Hub", 
+      date: "July 2026", 
+      linkText: "view event",
+      url: "https://calendar.google.com/calendar/u/0/share?slt=1AczbfHNm6RKZj2twNf7f7WwgAEUA2uW8Km1mvDdsW3FMJXSr5Zgb3LeunhI4fDq9q3nvJX6dTrM93w",
+      desc: "Moderated a 2-hour virtual panel discussion bridging the gap between hardware architecture, IoT solutions, and artificial intelligence for a diverse engineering community."
+    },
+    { 
       title: "From Static to Interactive: your first step in js", 
       tag: "Talk - Microsoft Student Ambassador, FUNAAB", 
       date: "June 2026", 
