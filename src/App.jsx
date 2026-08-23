@@ -95,7 +95,15 @@ const MyPortfolio = () => {
   ];
 
   // Blog Posts Data
-  const blogPosts = [
+const blogPosts = [
+    { 
+      title: "The Career Catalyst: The Early Starter Blueprint", 
+      tag: "Panel Moderator - Students' Union Government, FUNAAB", 
+      date: "August 2026", 
+      linkText: "view event",
+      url: "#",
+      desc: "Moderated a high-impact career masterclass featuring industry leaders in entrepreneurship, engineering, and finance, focused on equipping students with practical strategies for the professional world."
+    },
     { 
       title: "Building Connected Systems: Embedded Systems, IoT & AI", 
       tag: "Panel Moderator - Agricultural Society of Automation Practicing Engineers", 
@@ -128,7 +136,7 @@ const MyPortfolio = () => {
       url: "https://medium.com/@Timilehinolajolo/the-spark-in-the-dark-5a03ff50d0af",
       desc: "A reflective piece exploring the challenges of early technical pursuits and how to maintain momentum when debugging complex development issues."
     }
-  ];
+];
 
   return (
     <div className="relative min-h-screen bg-white text-gray-900 font-sans selection:bg-blue-700 selection:text-white overflow-hidden flex flex-col">
